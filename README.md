@@ -1,111 +1,120 @@
-🧠 AI Finance Tracker
+
+---
+
+# 🧠 AI Finance Tracker
 
 An AI-powered personal finance tracking and advisory application.
 AI Finance Tracker helps you record income/expenses, monitor budgets, and receive AI-driven financial insights for smarter money management.
 
-📑 Table of Contents
+---
 
-Overview
+## 📑 Table of Contents
 
-Tech Stack
+* [Overview](#-overview)
+* [Tech Stack](#-tech-stack)
+* [Features](#-features)
+* [Getting Started](#-getting-started)
+* [Project Structure](#-project-structure)
+* [Environment Variables](#-environment-variables)
+* [Usage](#-usage)
+* [Screenshots](#-screenshots)
+* [Roadmap](#-roadmap)
+* [Contributing](#-contributing)
+* [License](#-license)
 
-Features
+---
 
-Getting Started
+## 🔎 Overview
 
-Project Structure
+**AI Finance Tracker** is a modern web app that combines **Next.js, TypeScript, and TailwindCSS** with AI (OpenAI API) to simplify financial planning.
 
-Environment Variables
-
-Usage
-
-Screenshots
-
-Roadmap
-
-Contributing
-
-License
-
-🔎 Overview
-
-AI Finance Tracker is a modern web app that combines Next.js, TypeScript, and TailwindCSS with AI (OpenAI API) to simplify financial planning.
 It allows users to:
 
-Record their daily transactions.
+* Record their daily transactions.
+* Visualize financial health with charts and summaries.
+* Get personalized AI advice to optimize savings and expenses.
 
-Visualize financial health with charts and summaries.
+---
 
-Get personalized AI advice to optimize savings and expenses.
+## ⚙️ Tech Stack
 
-⚙️ Tech Stack
+* **Next.js** – Fullstack React framework
+* **TypeScript** – Type safety and maintainable code
+* **Tailwind CSS** – Utility-first styling
+* **Drizzle ORM** – Type-safe database access
+* **OpenAI API** – AI-driven financial recommendations
 
-Next.js – Fullstack React framework
+---
 
-TypeScript – Type safety and maintainable code
+## ✨ Features
 
-Tailwind CSS – Utility-first styling
+* 📊 **Track Income & Expenses** — Simple transaction logging.
+* 💰 **Budgeting Tools** — Set, manage, and monitor budgets.
+* 🤖 **AI-Powered Advice** — Get insights and recommendations from AI.
+* 📱 **Responsive Design** — Works smoothly on mobile and desktop.
+* 🔐 **Secure Authentication** — (If implemented) Sign in & manage accounts.
 
-Drizzle ORM – Type-safe database access
+---
 
-OpenAI API – AI-driven financial recommendations
+## 🚀 Getting Started
 
-✨ Features
+### Prerequisites
 
-📊 Track Income & Expenses — Simple transaction logging.
+Make sure you have the following installed:
 
-💰 Budgeting Tools — Set, manage, and monitor budgets.
+* **Node.js** (>= 18.x)
+* **npm** or **yarn**
+* **Git**
 
-🤖 AI-Powered Advice — Get insights and recommendations from AI.
+### Installation
 
-📱 Responsive Design — Works smoothly on mobile and desktop.
-
-🔐 Secure Authentication — (If implemented) Sign in & manage accounts.
-
-🚀 Getting Started
-Prerequisites
-
-Node.js (>= 18.x)
-
-npm or yarn
-
-Git
-
-Installation
+```bash
 # Clone the repository
 git clone https://github.com/Shashank07-debug/AI_Finance_Tracker.git
 cd AI_Finance_Tracker
 
 # Install dependencies
 npm install
+```
 
-🔑 Environment Variables
+---
 
-Create a .env.local file in the root directory and add:
+## 🔑 Environment Variables
 
+Create a `.env.local` file in the root directory and add:
+
+```env
 OPENAI_API_KEY=your_openai_api_key
 DATABASE_URL=your_database_url
 NEXT_PUBLIC_APP_URL=http://localhost:3000
+```
 
+*(Add additional keys here if using authentication or external APIs)*
 
-(Add additional keys here if using authentication or external APIs)
+---
 
-▶️ Usage
+## ▶️ Usage
 
 Start the development server:
 
+```bash
 npm run dev
+```
 
-
-Then open http://localhost:3000
- in your browser.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 For production:
 
+```bash
 npm run build
 npm start
+```
 
-📂 Project Structure
+---
+
+## 📂 Project Structure
+
+```
 AI_Finance_Tracker/
 │── app/                # Next.js routes & pages
 │── components/         # Reusable UI components
@@ -116,33 +125,35 @@ AI_Finance_Tracker/
 │── next.config.mjs     # Next.js configuration
 │── tailwind.config.js  # Tailwind CSS configuration
 │── package.json        # Project dependencies
+```
 
-📸 Screenshots
+---
 
-(Add screenshots of your app UI here — dashboard, AI insights, etc.)
+## 📸 Screenshots
 
-🛣️ Roadmap
+*(Add screenshots of your app UI here — dashboard, AI insights, etc.)*
 
-✅ Basic income/expense tracking
+---
 
-✅ Budget creation & monitoring
+## 🛣️ Roadmap
 
-🚧 AI financial predictions (in progress)
+* ✅ Basic income/expense tracking
+* ✅ Budget creation & monitoring
+* 🚧 AI financial predictions (in progress)
+* 🚧 Notifications / Alerts
+* 🚧 Multi-user authentication
 
-🚧 Notifications / Alerts
+---
 
-🚧 Multi-user authentication
-
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 
-Fork the project
+1. Fork the project
+2. Create a feature branch (`git checkout -b feature/awesome-feature`)
+3. Commit changes (`git commit -m 'Add awesome feature'`)
+4. Push to branch (`git push origin feature/awesome-feature`)
+5. Open a Pull Request
 
-Create a feature branch (git checkout -b feature/awesome-feature)
+---
 
-Commit changes (git commit -m 'Add awesome feature')
-
-Push to branch (git push origin feature/awesome-feature)
-
-Open a Pull Request
