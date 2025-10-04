@@ -84,9 +84,16 @@ npm install
 Create a `.env.local` file in the root directory and add:
 
 ```env
-OPENAI_API_KEY=your_openai_api_key
-DATABASE_URL=your_database_url
-NEXT_PUBLIC_APP_URL=http://localhost:3000
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+CLERK_SECRET_KEY=your_clerk_secret_key
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+
+NEXT_PUBLIC_OPENAI_API_KEY=your_openai_api_key
+
 ```
 
 *(Add additional keys here if using authentication or external APIs)*
@@ -156,4 +163,5 @@ Contributions are welcome!
 5. Open a Pull Request
 
 ---
+
 
